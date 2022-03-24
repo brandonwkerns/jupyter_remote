@@ -25,7 +25,7 @@ The script is set up to maintain one Jupyter Lab process, and one SSH connection
   - Indicate which browser to use on the LOCAL computer. It must work with "open -a" on the command line.
   - Specify the ports to use on the local and remote machines. They can be the same. Try not to use a port already being used, especially on the remote server.
 - Make the script executable, if it is not already. In a terminal, use `chmod +x jupyter_remote_connect.sh`.
-- To run the script, invoke `./jupyter_remote_connect.sh`.
+- To run the script, invoke `./jupyter_remote_connect.sh`. It may take a few moments for Jupyter Lab to spin up, and meanwhile the browser window may show "site cannot be reached" or similar.
 - Shutting down (highly recommended)
   - These instructions are printed out to the screen when you run the script.  
   - The easiest way to shut down the Jupyter Lab server and screen session is to use the "File --> Shut Down" menu in the web browser.

@@ -9,6 +9,8 @@ The script is adopted from https://stackoverflow.com/questions/43696291/script-t
 
 The script assumes that you are using conda on the remote server. It also uses a screen session, so screen must also be installed.
 
+The script is set up to maintain one Jupyter Lab process, and one SSH connection. If one or more of these are already running (e.g., you ran this script previously and did not shut it down), it should use the existing Jupyter Lab and/or SSH. The output to the screen will reflect this.
+
 ## Prerequisites:
 - Conda must be installed on the remote server, and there must be an environment with jupyterlab included.
 - Screen is needed on the remote server to spawn the Jupyter Lab in a screen session.
